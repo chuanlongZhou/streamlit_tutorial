@@ -1,0 +1,14 @@
+geopandas
+streamlit_folium
+folium
+matplotlib
+mapclassify
+streamlit_tree_select
+altair
+rioxarray
+geopandas
+tqdm
+pandas
+geopy
+d3blocks
+st_pages
