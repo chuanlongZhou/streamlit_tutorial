@@ -12,3 +12,7 @@ pandas
 geopy
 d3blocks
 st_pages
+
+vega_datasets
+faker
+streamlit_echarts
