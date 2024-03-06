@@ -2,7 +2,6 @@
 
 streamlit_tutorial
 
-
 1. offical demo: streamlit hello
 2. elements
 
@@ -15,18 +14,3 @@ streamlit_tutorial
 3. [Layouts and containers](https://docs.streamlit.io/library/api-reference/layout): streamlit run pages/7_7.layout.py
 4. [State management](https://docs.streamlit.io/library/api-reference/session-state): streamlit run pages/8_8.state_management.py
 5. [multipage app](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app): streamlit run streamlit_tutorial.py
-
-
-
-layouttab1**,** tab2 **=** st**.**tabs**(**[**"Streamlit theme (default)"**,**"Vega-Lite native theme"**]**)**
-
-**with** tab1**:**
-    **# Use the Streamlit theme.**
-    **# This is the default. So you can also omit the theme argument.**
-    st**.**vega_lite_chart**(**
-        source**,** chart**,** theme**=**"streamlit"**,** use_container_width**=**True
-    **)**
-**with** tab2**:**
-    st**.**vega_lite_chart**(**
-        source**,** chart**,** theme**=**None**,** use_container_width**=**True
-    **)**
